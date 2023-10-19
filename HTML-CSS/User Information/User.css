@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 62.5%;
+    background-image: linear-gradient(#cde6f7, #c2f7f8);}
+  
+    .nav {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      font-family: "Poppins";
+      margin-top: 10px;
+    }
+    
+    .nav-header {
+      font-size: 2rem;
+      margin-top: 20px;
+      position: left;
+      font-size: 4.5rem;
+      left: 350%;
+    }
+
+    .header-logo {
+      position: center;
+      place-items: center;
+    }
+
+
+  .container {
+      width: 100%;
+      height: 90vh; 
+      display: grid;
+      place-items: center;
+    }
+
+    .sub-heading {
+      margin-top: 100px;
+      font-size: 3rem;
+
+    }
+    
+    .form-heading {
+      font-family: "Arial", sans-serif;
+      font-size: 2rem;
+      font-weight: 400;
+      color: #050000;
+      letter-spacing: 0.3rem;
+      margin-bottom: 0rem;
+      transition: all 0.3s;
+      margin-top: 10px;
+    }
+    
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .contact-form-input {
+      width: 60rem;
+      height: 5rem;
+      padding: 0.5rem;
+      margin: 1rem 0;
+      background-color: rgba(255, 255, 255, 0.4);
+      border: 0.1rem solid #fff;
+      font-size: 1.7rem;
+      font-weight: 300;
+      color: #aaa;
+      letter-spacing: 0.rem;
+      outline: none;
+    }
+    
+    .contact-form-input:focus {
+      color: #929292;
+      border: 0.1rem solid #010002;
+    }
+    
+    .contact-form-input::placeholder {
+      color: #929292;
+    }
+    
+    .contact-form-textarea {
+      height: 20rem;
+      resize: none;
+    }
+    
+    .form-submit-btn {
+      width: 20rem;
+      height: 5rem;
+      background-color: #fff;
+      border: none;
+      font-size: 1.8rem;
+      color: #070000;
+      cursor: pointer;
+    }
+    
+  
+    a {
+      color: #000;
+      text-decoration: none;
+    }
+    
+  
+    
+    .nav-sec-div {
+      font-size: 1.5rem;
+      display: flex;
+      width: 40%;
+      flex-direction: row;
+      gap: 10%;
+      margin-top: 30px;
+    }
